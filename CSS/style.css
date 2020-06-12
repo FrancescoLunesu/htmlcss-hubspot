@@ -185,6 +185,7 @@ body{
     width: 32%;
     background-color: white;
     margin-top: 30px;
+    margin-bottom: 30px;
     float: left;
     padding: 50px;
     text-align: center;
@@ -222,11 +223,68 @@ body{
 }
 
 .bg-aqua{
-    background-color: aqua;
+    background: rgb(0,172,182);
+    background: linear-gradient(90deg, rgba(0,172,182,1) 0%, rgba(0,188,165,1) 99%);
 }
 
 .statistiche{
-    height: 500px;
+    height: 600px;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.statistiche h2{
+    font-size: 30px;
+    /* margin: 20px 0; */
+}
+
+.statistiche h4{
+    font-size: 12px;
+    font-weight: 100px;
+}
+
+.tabella{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    /* background-color: red; */
+}
+
+.tabella .top, .tabella .bottom{
+    width: 100%;
+    height: 50%;
+    /* background-color: green; */
+    text-align: center;
+}
+
+.top .quadrato, .bottom .quadrato{
+    width: 25%;
+    height: 100%;
+    /* background-color: yellow; */
+    /* border: 1px solid black; */
+    float: left;
+    padding: 30px;
+}
+
+.top .quadrato{
+    border-bottom: 1px solid white;
+}
+
+.top .quadrato h2, .bottom .quadrato h2{
+    position: relative;
+    font-size: 48px;
+}
+
+.plus::after{
+    content: "+";
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 .main-bottom{
