@@ -109,12 +109,12 @@ body{
 }
 
 .sezione{
-    height: 500px;
+    height: 300px;
     /* background-color: red; */
 }
 
 .banner{
-    height: 70%;
+    height: 60%;
     background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/2018/Integrations_Illustration@2x.png);
     background-position: center;
     background-size: 200px;
@@ -123,6 +123,7 @@ body{
 
 .sottotitolo{
     text-align: center;
+    color: #33475b;
 }
 
 .sottotitolo h4{
@@ -133,15 +134,91 @@ body{
 }
 
 .box{
-    height: 200px;
+    height: 250px;
     background-color: white;
+    border-radius: 10px;
 }
+
+.immagine1{
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+    text-align: center;
+    padding: 30px;
+    float: left;
+}
+
+.immagine1 img{
+    height: 120px;
+}
+
+.CRM{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    padding: 50px;
+    text-align: left;
+    color: #33475b;
+}
+
+.CRM div{
+    margin: 15px;
+}
+
+.CRM h3{
+    display: inline-block;
+}
+
+.CRM hr{
+    display: inline-block;
+    margin: 5px 50px;
+    width: 40%;
+}
+
+.CRM i{
+    margin: 5px 20px;
+}
+
 
 .card{
     height: 500px;
-    width: 33.3333%;
-    background-color: orange;
+    width: 32%;
+    background-color: white;
+    margin-top: 30px;
     float: left;
+    padding: 50px;
+    text-align: center;
+    color: #33475b;
+    border-radius: 10px;
+}
+
+.card:nth-child(2n){
+    margin: 30px 2% 0 2%;
+}
+
+.card img{
+    height: 100px;
+}
+
+.card h2{
+    font-size: 18px;
+}
+
+.card h3{
+    font-size: 14px;
+}
+
+.card p{
+    font-size: 12px;
+}
+
+.card h2, .card p, .card h3, .card hr{
+    margin: 20px;
+}
+
+.flags{
+    text-align: left;
+    margin-bottom: 10px;
 }
 
 .bg-aqua{
