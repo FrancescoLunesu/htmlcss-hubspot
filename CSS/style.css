@@ -34,12 +34,41 @@ body{
 
 #fixed{
     height: 80px;
-    background-color: yellow;
+    background-color: #f4f9fd;
 }
+
+.gray-band a{
+    text-decoration: none;
+    color: #3e5465;
+}
+
+.lingua, span, .contact{
+    float: left;
+    line-height: 80px;
+}
+
+.search, .buttons{
+    float: right;
+    line-height: 80px;
+}
+
 
 nav{
     height: 80px;
     background-color: blue;
+    line-height: 80px;
+}
+
+.logo img{
+    height: 30px;
+    float: left;
+}
+
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    display: inline-block;
 }
 
 .header-bottom{
