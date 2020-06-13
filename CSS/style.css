@@ -288,7 +288,86 @@ body{
 }
 
 .main-bottom{
-    height: 500px;
+    height: 700px;
+}
+
+.customers{
+    height: 30%;
+    width: 100%;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+
+.customer-n{
+    width: 30%;
+    height: 100%;
+    /* background-color: green; */
+    padding: 20px;
+    float: left;
+}
+
+.customer-n h2{
+    color: #33475b;
+    font-size: 32px;
+    margin-left: 40px;
+}
+
+.customer-n p{
+    color:#33475b;
+    margin-left: 40px;
+}
+
+.customer-logo-section{
+    width: 70%;
+    height: 100%;
+    float: left;
+    padding: 20px 40px;
+}
+
+.customer-logo{
+    display: inline-block;
+    margin: 20px 30px;
+}
+.customer-logo img{
+    width: 100px;
+    height: 15px;
+}
+
+.main-bottom-sezione2{
+    height: 70%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.sezione2-left{
+    width: 40%;
+    height: 100%;
+    /* background-color: green; */
+    float: left;
+    padding: 30px 0;
+    color: #33475b;
+}
+
+.sezione2-left h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.sezione2-left p{
+    margin: 20px 0;
+}
+
+.sezione2-right{
+    width: 60%;
+    height: 100%;
+    /* background-color: blue; */
+    float: left;
+    text-align: right;
+}
+
+.sezione2-right div img{
+    width: 350px;
+    height: 430px;
 }
 
 .bg-darkblue{
