@@ -14,6 +14,40 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Definizione BOTTONI */
+.GetHubspotFree, .LearnMore{
+    padding: 20px;
+    background-color: #fe775a;
+    border: none;
+    border-radius: 5px;
+    color: #fffefe;
+}
+
+.GetHubspotFreeHeader{
+    padding: 10px;
+    background-color: #fe775a;
+    border: none;
+    border-radius: 5px;
+    color: #fffefe;
+}
+
+.login{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #fe775a;
+    border-radius: 5px;
+    color: #fe775a
+}
+
+.ContactHubSpotSupport{
+    padding: 10px;
+    background-color: #dadee0;
+    border: none;
+    border-radius: 5px;
+    color: #3d5364;
+}
+/* FINE definizione BOTTONI */
+
 .bg-gray{
     background-color: #f4f9fd;
 }
@@ -62,6 +96,7 @@ body{
 .search, .buttons{
     float: right;
     line-height: 80px;
+    margin-left: 10px;
 }
 
 
@@ -82,6 +117,11 @@ body{
 }
 .menu ul li{
     display: inline-block;
+    margin-left: 15px;
+}
+
+.menu i{
+    margin-left: 5px;
 }
 
 .header-bottom{
@@ -351,6 +391,8 @@ body{
     /* background-color: red; */
 }
 
+/* DEFINIZIONE FOOTER */
+
 .sezione2-left{
     width: 40%;
     height: 100%;
@@ -448,11 +490,6 @@ body{
 .languages span{
     margin-left: 20px;
     color: #f0f2f3;
-}
-
-.footer-bottom hr{
-    width: 80%;
-    margin: 0 auto;
 }
 
 .credits{
