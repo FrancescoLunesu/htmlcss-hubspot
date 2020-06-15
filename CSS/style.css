@@ -50,8 +50,14 @@ body{
 
 .bg-gray{
     background-color: #f4f9fd;
+    border-bottom: 1px solid black;
+    width: 100%;
 }
 
+.fixed{
+    position: fixed;
+    z-index: 2;
+}
 .bg-white{
     background-color: white;
 }
@@ -66,15 +72,12 @@ body{
     margin: 0 auto;
 }
 
-#fixed{
-    height: 80px;
-    background-color: #f4f9fd;
-}
-
 .gray-band a{
     text-decoration: none;
     color: #3e5465;
 }
+
+
 
 .lingua{
     color: #3e5465;
@@ -124,6 +127,11 @@ body{
     margin-left: 5px;
 }
 
+.menu ul li a{
+    text-decoration: none;
+    color: #3d5263;
+}
+
 .header-bottom{
     height: 400px;
 }
@@ -133,6 +141,7 @@ body{
     height: 100%;
     /* background-color: orange; */
     padding: 50px 0;
+    float: left;
 }
 
 .jumbotron h1{
@@ -152,12 +161,27 @@ body{
     margin: 20px 0;
 }
 
+.background{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.background img{
+    position: absolute;
+    bottom: -46px;
+    height: 303px;
+}
+
 .bg-green{
     background-color: #afebe4;
 }
 
 .green-band{
     height: 50px;
+    border-top: 1.2px solid black;
+    border-bottom: 1.2px solid black;
 }
 
 .sezione{
@@ -337,6 +361,10 @@ body{
     color: #fff;
     font-size: 1rem;
     font-weight: 500;
+}
+
+.quadrato:nth-child(1n+2){
+    border-left: 1px solid white;
 }
 
 .main-bottom{
