@@ -249,7 +249,70 @@ display: block;
 }
 
 
+/* Definizione menu a tendina "RESOURCES" */
 
+.dropdown-menu-resources{
+    display: inline-block;
+}
+
+.dropdown-menu-resources{
+  position: relative;
+}
+
+.comparsa-software-resources {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: -300px;
+  background-color: #f1f1f1;
+  min-width: 650px;
+  /* height: 500px; */
+  /* background-color: blue; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.comparsa-software-resources .dropdown-row1 {
+  color: black;
+  /* height: 33.3333%;
+  background-color: yellow; */
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+}
+
+.row1{
+    /* height: 100%;
+    background-color: red; */
+}
+
+.row1 #ulrow{
+    float: left;
+}
+
+.row1 ul li{
+    width: 30%;
+    /* height: 100%;
+    background-color: green; */
+    display: inline-block;
+}
+
+.row1 ul li h3{
+    font-size: 14px;
+}
+.row1 ul li p{
+    font-size: 10px;
+}
+
+.comparsa-software-resources .dropdown-row1:hover, .dropdown-row1:hover .square {
+background-color: #ddd;
+}
+
+.dropdown-menu-resources:hover .comparsa-software-resources, .dropdown-menu-resources:hover .square:hover {
+display: block;
+}
+
+/* FINE ROW RESOURCES */
 
 
 .menu i{
